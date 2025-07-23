@@ -1,0 +1,45 @@
+{
+  "name": "client",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@capsitech/react-utilities": "^0.1.4",
+    "@fluentui/react": "^8.123.1",
+    "@fluentui/react-components": "^9.66.5",
+    "@fluentui/react-icons": "^2.0.305",
+    "@fluentui/react-search-preview": "^0.2.0",
+    "@types/react": "^18.0.38",
+    "@types/react-dom": "^18.0.11",
+    "axios": "^1.10.0",
+    "bootstrap": "^5.3.7",
+    "file-saver": "^2.0.5",
+    "formik": "^2.4.6",
+    "jwt-decode": "^4.0.0",
+    "qs": "^6.14.0",
+    "react": "^18.3.1",
+    "react-bootstrap": "^2.10.10",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^7.6.3",
+    "yup": "^1.6.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.29.0",
+    "@types/jwt-decode": "^2.2.1",
+    "@types/react-router-dom": "^5.3.3",
+    "@vitejs/plugin-react": "^4.5.2",
+    "eslint": "^9.29.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "globals": "^16.2.0",
+    "typescript": "~5.8.3",
+    "typescript-eslint": "^8.34.1",
+    "vite": "^7.0.0"
+  }
+}
